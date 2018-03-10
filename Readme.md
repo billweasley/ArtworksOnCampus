@@ -1,11 +1,11 @@
 # About
-Simple project for Assignment 2 COMP 327 Mobile Computing Using swift.
+project for Assignment 2 COMP 327 Mobile Computing developed using swift.
 It is the map for present artworks info located in Uni. of Liverpool according to users' proximity.
 I have to say the course is simple and boring one as nothing surprise on Mobile Computing :)
 
 # Backend Required
 Currently it uses  
-[!](https://cgi.csc.liv.ac.uk/~phil/Teaching/COMP327/artworksOnCampus/data.php?class=artworks2&lastUpdate=)  
+[this link](https://cgi.csc.liv.ac.uk/~phil/Teaching/COMP327/artworksOnCampus/data.php?class=artworks2&lastUpdate=)  
 for artwork data. Notice the *lastUpdate* parameter takes date in form of "YYYY-MM-dd" (e.g. 2017-11-10),
 which representing the returned results should be updated later than the given date.
 
@@ -25,7 +25,9 @@ The format of it looks like:
             "fileName":"Entrance by Maurice Cockrill.jpg",
             "lastModified":"2017-11-22 12:22:31"
         },
-        //...
+        {
+        }
+      ]
 }
 ```  
 
